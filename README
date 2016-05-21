@@ -1,0 +1,41 @@
+Character Customizer
+(written by Johna Latouf for The Ceresian, a personal project 2015-2016)
+Check out JohnaLatouf.com for more information
+
+---------------------------------------------------------------------------
+...Introduction...
+
+Last summer I wanted to learn Unity so I started making a dorky game. I have
+pulled the character customizer part of the game out so that I can start working 
+with that again, because it was fun.
+
+---------------------------------------------------------------------------
+...How it Works...
+
+The PlayerFemaleCust prefab includes arrays containing meshes or textures for
+each swappable item. A MasterEmpty empty game object includes a script that holds 
+the ID's for each item that is selected when the custom player character is saved.
+This object is set to never die, so it follows the player throughout the game. I 
+intend to replace this with a simple file that can be written to with the information.
+
+There are multiple Swap Texture scripts for different types of textures, and 
+the mesh swapping is done through button clicks.
+
+
+---------------------------------------------------------------------------
+...Usage...
+
+I have not put any sort of licence on this work yet. I used MakeHuman, an open
+source 3D modeller to create the basemesh and base rig for my player character, 
+but modifications to that model and all of the other modelling, texturing, and 
+animation was otherwise done by me. I have no problem with people re-using my
+scripts (keep attributions in them) but they should speak to me before using 
+artwork.
+
+In the custom character screen, use the mouse to click buttons to get different
+attributes. Use the arrow keys to rotate the player and move the head up and down.
+
+In the second scene, use the mouse to direct the player and the up and down arrows
+to move back and forth.
+
+---------------------------------------------------------------------------
